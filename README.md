@@ -27,6 +27,15 @@ Unity plugin that depends on the Flutter engine which will load up the project
 from the StreamingAssets.  Finally, there is a MonoBehaviour that will
 initialize and coordinate Unity with the plugin.
 
+## Import files
+
+- [//Plugin/src/plugin.mm](./Plugin/src/plugin.mm): The Unity native plugin that
+  interoperates with the Flutter embedder.
+- [//UnityProject/Assets/FlutterUnity/FlutterUnity.cs](./UnityProject/Assets/FlutterUnity/FlutterUnity.cs):
+  The MonoBehaviour that communicates with the plugin.
+- [//flutter_project/lib/main.dart](./flutter_project/lib/main.dart): The main
+  source for the Flutter projects that is executed.
+
 ## Scripts
 
 Inside the repo there are a handful of scripts that help put the correct
