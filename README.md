@@ -39,7 +39,7 @@ initialize and coordinate Unity with the plugin.
 ## Artifacts
 
 - [//UnityProject/Assets/FlutterUnity/libFlutterEmbedder.dylib](./UnityProject/Assets/FlutterUnity/libFlutterEmbedder.dylib):
-  The Flutter embedder library.
+  The Flutter embedder library (debug build).
 - [//UnityProject/Assets/StreamingAssets/flutter_assets](./UnityProject/Assets/StreamingAssets/flutter_assets):
   The compiled Flutter project (compiled as a bundle, not AOT).
 - [//UnityProject/Assets/FlutterUnity/Editor/FlutterUnity.bundle](./UnityProject/Assets/FlutterUnity/Editor/FlutterUnity.bundle):
