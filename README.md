@@ -6,7 +6,7 @@ This is a small proof of concept showing Flutter embedded in Unity.
 
 ## Limitations
 
-Right now this proof on concept only support macOS; rendering Flutter inside of
+Right now this proof-of-concept only support macOS; rendering Flutter inside of
 the Unity Editor and also in built applications.  It is using the Software
 renderer but could be made to work with any backend.
 
